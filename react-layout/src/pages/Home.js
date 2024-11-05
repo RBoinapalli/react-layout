@@ -3,13 +3,12 @@ import "../css/Home.css";
 
 const Home = () => {
     return (
-        <div class= "trees">
-        <Tree name ="Bald Cypress" image="images/baldCypress.jpg" />
-        <Tree name="Eastren Redbud"image="redbud.jpg" />
-        <Tree name= "Live Oak" image="images/oak.jpg"/>
+        <div className="trees">
+            <Tree name="Bald Cypress" image="images/bald.jpg" />
+            <Tree name="Eastern Redbud" image="images/red.jpg" />
+            <Tree name="Live Oak"image="images/live-oak.jpg" />
         </div>
     );
-    
 };
 
 export default Home;
